@@ -1,6 +1,8 @@
+/* Import Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/sansita-one");
 
+/* Define root variables */
 :root {
   --primary-color: #030915;
   --tertiary-color: #161c28;
@@ -10,7 +12,7 @@
   --sansita-ff: "Sansita One", sans-serif;
 }
 
-/* general reset */
+/* General reset styles */
 * {
   margin: 0;
   padding: 0;
@@ -35,14 +37,15 @@ body {
   position: relative;
 }
 
-/* hero section */
+/* Hero section styles */
 .hero {
   background: var(--primary-color);
   min-height: 100vh;
   color: var(--text-color) !important;
+  position: relative;
 }
 
-/* header */
+/* Header styles */
 .navbar-toggler-icon {
   background-image: none;
   background: white;
@@ -92,9 +95,7 @@ body {
   color: var(--text-color);
 }
 
-/* media queries */
-
-/* laptop */
+/* Media queries for laptop screen size */
 @media (min-width: 900px) {
   .hero-img-container {
     position: absolute;
