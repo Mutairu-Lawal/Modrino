@@ -19,6 +19,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
+  font-family: var(--poppins-ff);
 }
 
 p,
@@ -53,7 +54,6 @@ body {
 
 .hero .nav-link {
   color: var(--text-color) !important;
-  font-family: var(--poppins-ff);
   font-weight: 500;
 }
 
@@ -84,10 +84,6 @@ body {
   font-family: var(--sansita-ff);
   font-size: 96px;
   line-height: 90px;
-}
-
-.hero--section p {
-  font-family: var(--poppins-ff);
 }
 
 .hero--section .read-more-btn {
