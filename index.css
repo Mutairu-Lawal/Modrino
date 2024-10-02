@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.cdnfonts.com/css/sansita-one");
+
+:root {
+  --primary-color: #030915;
+  --tertiary-color: #161c28;
+  --border-color: #0e317d;
+  --text-color: #ffffff;
+  --poppins-ff: "Poppins", sans-serif;
+  --sansita-ff: "Sansita One", sans-serif;
+}
+
+/* general reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 !important;
+}
+
+body {
+  min-height: 100dvh;
+  overflow-x: hidden;
+  position: relative;
+}
+
+/* hero section */
+.hero {
+  background: var(--primary-color);
+  min-height: 100vh;
+  color: var(--text-color) !important;
+}
+
+/* header */
+.navbar-toggler-icon {
+  background-image: none;
+  background: white;
+}
+
+.hero .nav-link {
+  color: var(--text-color) !important;
+  font-family: var(--poppins-ff);
+  font-weight: 500;
+}
+
+.hero .circle {
+  background: var(--tertiary-color);
+  border-radius: 50%;
+  display: none;
+}
+
+.top-left {
+  width: 300px;
+  height: 300px;
+  top: 0;
+  left: 0;
+  transform: translate(-120px, -120px);
+}
+
+.middle-center {
+  width: 30px;
+  height: 30px;
+  background: red;
+  top: 60px;
+  left: 60%;
+  transform: translate(-50%, 50%);
+}
+
+.hero--section .heading {
+  font-family: var(--sansita-ff);
+  font-size: 96px;
+  line-height: 90px;
+}
+
+.hero--section p {
+  font-family: var(--poppins-ff);
+}
+
+.hero--section .read-more-btn {
+  border: 3px solid var(--text-color);
+  color: var(--text-color);
+}
+
+/* media queries */
+
+/* laptop */
+@media (min-width: 900px) {
+  .hero-img-container {
+    position: absolute;
+    width: 1000px;
+    height: 500px;
+    bottom: 0;
+    transform: translate(-40%, 23%);
+  }
+
+  .hero-img-container img {
+    width: 100% !important;
+    height: 100% !important;
+  }
+}
