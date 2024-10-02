@@ -38,6 +38,15 @@ body {
   position: relative;
 }
 
+.c-btn {
+  border: 3px solid var(--text-color);
+  color: var(--text-color);
+}
+
+.c-btn:hover {
+  border: 3px solid var(--text-color);
+}
+
 /* Hero section styles */
 .hero {
   background: var(--primary-color);
@@ -86,16 +95,42 @@ body {
   line-height: 90px;
 }
 
-.hero--section .read-more-btn {
-  border: 3px solid var(--text-color);
-  color: var(--text-color);
-}
-
 /* features */
 
 .feature {
   min-width: 170px;
   border: 2px solid #d9d9d9;
+}
+
+/* Categories */
+.category-heading {
+  font-family: var(--sansita-ff);
+  font-size: 64px;
+}
+
+.lists p {
+  padding-bottom: 0.5em;
+  text-align: center;
+}
+
+.lists .active {
+  border-bottom: 3px solid var(--border-color);
+}
+
+.category-image-container {
+  background: url("./images/Rectangle\ 54.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.category-image-container > * {
+  color: var(--text-color);
+}
+
+.category-image-container h2 {
+  font-family: var(--sansita-ff);
+  font-size: 40px;
 }
 
 /* Media queries for laptop screen size */
@@ -104,7 +139,6 @@ body {
     position: absolute;
     width: 1000px;
     height: 500px;
-    bottom: 0;
     transform: translate(-40%, 23%);
   }
 
@@ -112,4 +146,5 @@ body {
     width: 100% !important;
     height: 100% !important;
   }
+  /* category */
 }
