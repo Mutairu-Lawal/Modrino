@@ -134,12 +134,12 @@ body {
 
 /* cards */
 .c-card {
-  /* width: 310px; */
   overflow: hidden;
   border-radius: 18px;
   background: #212838;
   color: var(--text-color);
   overflow: hidden;
+  flex-grow: 1;
 }
 
 .c-card--img-container img {
@@ -218,6 +218,7 @@ footer {
   .category-image-container {
     border-radius: 18px;
   }
+
   /* service */
   .service-wrapper {
     height: 455px;
