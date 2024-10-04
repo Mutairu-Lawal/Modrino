@@ -116,18 +116,19 @@ body {
   border-bottom: 3px solid var(--border-color);
 }
 
-.category-image-container {
+.category-container {
   background: url("./images/Rectangle\ 54.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
-.category-image-container > * {
+.category-container > * {
   color: var(--text-color);
 }
 
-.category-image-container h2 {
+.category-container h2 {
   font-family: var(--sansita-ff);
   font-size: 40px;
 }
@@ -215,8 +216,25 @@ footer {
     height: 100% !important;
   }
   /* category */
-  .category-image-container {
-    border-radius: 18px;
+  .category-container {
+    border-radius: 1.125rem;
+    height: 340px;
+    padding-left: 3.125rem;
+  }
+
+  .category--text-context {
+    margin-top: 1.5625rem;
+  }
+
+  .learn-more-btn {
+    margin-top: 3.75rem !important;
+    font-size: 28px;
+  }
+
+  .category--img-container {
+    position: absolute;
+    top: 15%;
+    left: 20%;
   }
 
   /* service */
