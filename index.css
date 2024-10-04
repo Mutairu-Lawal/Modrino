@@ -17,7 +17,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
+  text-decoration: none !important;
   list-style: none;
   font-family: var(--poppins-ff);
 }
@@ -174,6 +174,12 @@ body {
   width: max-content;
   border-bottom: 1px solid var(--text-color);
 }
+/* footer */
+
+footer {
+  background: var(--tertiary-color);
+  color: var(--text-color);
+}
 
 /* tablet */
 @media (min-width: 600px) {
@@ -216,5 +222,17 @@ body {
 
   .service-details {
     font-size: 24px;
+  }
+
+  /* footer */
+  .footer-details h2 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .footer-details p {
+    font-size: 18px;
+    font-weight: 300;
+    padding-top: 0.25rem;
   }
 }
