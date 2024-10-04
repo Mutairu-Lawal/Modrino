@@ -216,6 +216,10 @@ footer {
     height: 100% !important;
   }
   /* category */
+  .lists p {
+    font-size: 24px;
+    font-weight: 500;
+  }
   .category-container {
     border-radius: 1.125rem;
     height: 340px;
