@@ -167,7 +167,6 @@ body {
 
 .service--heading {
   font-family: var(--sansita-ff);
-  font-size: 38px;
 }
 
 .service-btn {
@@ -195,6 +194,10 @@ footer {
 }
 /* Media queries for laptop screen size */
 @media (min-width: 900px) {
+  .container-fluid {
+    max-width: 1200px;
+  }
+
   nav .navbar-nav {
     padding-right: 5%;
   }
@@ -218,6 +221,10 @@ footer {
   /* service */
   .service-wrapper {
     height: 455px;
+  }
+
+  .service--heading {
+    font-size: 38px;
   }
 
   .service-details {
