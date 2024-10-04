@@ -97,7 +97,10 @@ body {
 
 /* features */
 .feature {
-  min-width: 170px;
+  width: 170px;
+  height: 122px;
+  display: flex;
+  justify-content: center;
   border: 2px solid #d9d9d9;
 }
 
