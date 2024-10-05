@@ -339,13 +339,15 @@
             effect="coverflow"
             centered-slides="true"
             slides-per-view="auto"
+            pagination="true"
+            pagination-dynamic-bullets="true"
             coverflow-effect-rotate="50"
             coverflow-effect-stretch="0"
             coverflow-effect-depth="100"
             coverflow-effect-modifier="1"
             coverflow-effect-slide-shadows="true"
           >
-            <swiper-slide>
+            <swiper-slide class="">
               <div class="c-card">
                 <div class="c-card--img-container">
                   <img
@@ -479,7 +481,7 @@
         </div>
         <!-- service 2 -->
         <div class="service row mt-1">
-          <div class="col-12 mb-2 col-sm-6 col-lg-5 order-lg-1">
+          <div class="col-12 mb-2 col-sm-6 col-lg-5 order-sm-1">
             <div class="service-wrapper service--text-context p-5 pt-sm-5">
               <div class="text-context">
                 <h2 class="service--heading mb-3">Free Support</h2>
@@ -571,8 +573,8 @@
         breakpoints: {
           // when window width is >= 320px
           320: {
-            slidesPerView: 2,
-            spaceBetween: 10,
+            slidesPerView: 1.5,
+            spaceBetween: 0,
           },
           // when window width is >= 480px
           480: {
