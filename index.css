@@ -56,7 +56,6 @@ body {
 }
 
 /* Header styles */
-
 .navbar {
   position: relative;
 }
@@ -150,7 +149,6 @@ swiper-slide img {
 }
 
 /* cards */
-
 swiper-container {
   width: 100%;
   padding-top: 10px;
@@ -208,16 +206,14 @@ swiper-slide img {
   width: max-content;
   border-bottom: 1px solid var(--text-color);
 }
-/* footer */
 
+/* footer */
 footer {
   background: var(--tertiary-color);
   color: var(--text-color);
 }
 
-/* media queries */
-
-/* tablet */
+/* media query for tablet and larger screens */
 @media (min-width: 600px) {
   .subtitle {
     width: 65%;
@@ -317,6 +313,7 @@ footer {
     padding-right: 3em;
     display: none;
   }
+
   .hero-img {
     position: absolute;
     top: -520%;
@@ -329,11 +326,13 @@ footer {
     height: 100% !important;
     object-fit: contain;
   }
+
   /* category */
   .lists p {
     font-size: 24px;
     font-weight: 500;
   }
+
   .category-container {
     border-radius: 1.125rem;
     height: 340px;
@@ -378,10 +377,6 @@ footer {
     font-weight: 300;
     padding-top: 0.25rem;
   }
-}
-
-/* Hero section responsiveness for tablet orientation mode */
-@media (max-width: 768px) and (orientation: landscape) {
 }
 
 /* mobile and smaller screens  */
